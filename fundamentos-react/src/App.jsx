@@ -12,11 +12,26 @@ import Primeiro from './components/basics/Primeiro';
 import ComParametro from './components/basics/ComParametro';
 import Fragmento from './components/basics/Fragmento';
 import Aleatorio from "./components/basics/Aleatorio";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
 
 export default _ =>
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+
+            <Card titulo="#11 Componentes Controlados" color="#00J6E7">
+                <Input></Input>
+            </Card>
+
+            <Card titulo="#10 Comunicação Indireta" color="#00J6E7">
+                <IndiretaPai></IndiretaPai>
+            </Card>
+
+            <Card titulo="#09 Comunicação Direta" color="#00J6E7">
+                <DiretaPai></DiretaPai>
+            </Card>
 
             <Card titulo="#08 Renderização condicional" color="#00J6E6">
                 <ParOuImpar numero={13}></ParOuImpar>

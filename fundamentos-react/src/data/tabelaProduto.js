@@ -3,6 +3,7 @@ const produtos = [
     {id:2, produto:'Camiseta verde', marca:'Pool',preco: 79.9},
     {id:3, produto:'Bermuda jeans', marca:'Riachuelo',preco: 49.9},
     {id:4, produto:'Oculos natação', marca:'Oakley',preco: 199.9},
+    {id:5, produto:'Kindle', marca:'Amazon',preco: 499.9},
 ]
 
 export default produtos

@@ -9,3 +9,7 @@
 .TabelaProdutos .Par {
     background-color: #ddd;
 }
+
+.TabelaProdutos .Impar {
+    background-color: #a19292;
+}

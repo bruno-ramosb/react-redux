@@ -7,7 +7,7 @@ export default (props) => {
     function getLinhas() {
         return produtos.map((produto,i) => {
             return (
-                <tr key={produto.id} className={i % 2 ===0 ? 'Par': ''}>
+                <tr key={produto.id} className={i % 2 === 0 ? 'Par': 'Impar'}>
                     <td>{produto.produto}</td>
                     <td>{produto.marca}</td>
                     <td>{produto.preco.toFixed(2)}</td>
